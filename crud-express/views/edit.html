@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.css"> 
+  <title>Document</title>
+</head>
+<body>
+  <h2>添加学生</h2>
+  <form action='/students/edit' method='post'>
+    <input type="hidden" name="id" value="{{ student.id }}">
+    <div class="form-group">
+      <label for="">姓名</label>
+      <input type="text" class="form-control" id="" name="name" required minlength="2" maxlength="10" value="{{ student.name }}">
+    </div>
+    <div class="form-group">
+      <label for="">性别</label>
+      <div>
+        <label class="radio-inline">
+          <input type="radio" name="gender" id="" value="0" checked> 男
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="gender" id="" value="1"> 女
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="">年龄</label>
+      <input class="form-control" type="number" id="" name="age" required min="1" max="150" value="{{ student.age }}">
+    </div>
+    <div class="form-group">
+      <label for="">爱好</label>
+      <input class="form-control" type="text" id="" name="hobbies"  value="{{ student.hobbies }}">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</body>
+</html>

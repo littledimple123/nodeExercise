@@ -1,0 +1,1 @@
+console.log('public里面的js')
