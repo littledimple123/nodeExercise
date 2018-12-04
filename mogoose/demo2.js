@@ -47,13 +47,13 @@ var User = mongoose.model('User', userSchema)
 
 //查询数据
 //查询所有
-// User.find(function(err, ret) {
-//     if (err) {
-//         console.log(err)
-//     } else {
-//         console.log(ret)
-//     }
-// })
+User.find(function(err, ret) {
+    if (err) {
+        console.log(err)
+    } else {
+        console.log(ret)
+    }
+})
 
 //按条件查询单个
 // User.findOne({ userName: 'admin' }, function(err, ret) {

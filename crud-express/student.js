@@ -16,7 +16,7 @@ var commentSchema = new Schema({
     age: {
         type: Number
     },
-    hobbies {
+    hobbies: {
         type: String
     }
 
