@@ -1,0 +1,6 @@
+{
+    "users": [{
+        "name": "admin",
+        "age": 18
+    }]
+}

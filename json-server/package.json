@@ -1,0 +1,11 @@
+{
+    "name": "json-server",
+    "version": "1.0.0",
+    "description": "搭建服务端环境",
+    "main": "index.js",
+    "scripts": {
+        "json:server": "json-server --watch db.json"
+    },
+    "author": "",
+    "license": "ISC"
+}
