@@ -1,0 +1,45 @@
+.dropdown-current-user {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background: none;
+}
+
+.container #bs-example-navbar-collapse-1 {
+    display: block;
+}
+
+
+/* 
+.container .navbar-header {
+    width: 45%;
+}
+
+.container #bs-example-navbar-collapse-1 {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    flex-basis: 0;
+}
+
+.container #bs-example-navbar-collapse-1 .navbar-left {
+    float: left;
+}
+
+.container #bs-example-navbar-collapse-1 .navbar-right {
+    float: right;
+}
+
+.container #bs-example-navbar-collapse-1 .navbar-right a {
+    float: right;
+    width: 100px;
+}
+
+.container #bs-example-navbar-collapse-1 .navbar-right li {
+    float: right;
+} */

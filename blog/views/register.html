@@ -11,6 +11,23 @@
 </head>
 
 <body>
+    <!-- 同步提交，不涉及前端js.就是不使用ajax 
+    <p>{{err_message}}</p>
+    <form id="register_form" method="post" action="/register">
+        <div class="form-group">
+            <label for="email">邮箱</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" autofocus value="{{form && form.email}}">
+        </div>
+        <div class="form-group">
+            <label for="nickname">昵称</label>
+            <input type="text" class="form-control" id="nickname" name="nickname" placeholder="Nickname" value="{{form && form.nickname}}">
+        </div>
+        <div class="form-group">
+            <label for="password">密码</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-success btn-block">注册</button>
+    </form>-->
     <form id="register_form" method="post" action="/register">
         <div class="form-group">
             <label for="email">邮箱</label>
